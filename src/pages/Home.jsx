@@ -53,11 +53,11 @@ const AryansPortfolio = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center relative px-4">
         <div 
-          className="transform transition-transform duration-1000 ease-out"
+          className="transform transition-transform duration-1000 ease-out flex flex-col items-center"
           style={{ transform: `translateY(${scrollY * 0.5}px)` }}
         >
           {/* Hero Image */}
-          <div className="relative mb-8">
+          <div className="relative mb-8 flex justify-center">
             <div className="w-64 h-auto md:w-80 md:h-auto rounded-lg bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-1">
               <div className="w-full h-full rounded-lg bg-gray-800 flex items-center justify-center overflow-hidden">
                 <img src={aryands} alt="Aryan The Demon Slayer" className="w-full h-full object-cover" />
