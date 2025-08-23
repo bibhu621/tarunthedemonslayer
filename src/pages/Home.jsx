@@ -78,7 +78,7 @@ const AryansPortfolio = () => {
             </p>
             <div className="flex items-center justify-center space-x-2 text-sm md:text-base text-gray-400">
               <MapPin className="w-4 h-4" />
-              <span>From Dehri-on-Sone to the World</span>
+              <span>From a chaotic world to a clear and fullfilling life long Journey!</span>
             </div>
           </div>
         </div>
@@ -288,8 +288,8 @@ const AryansPortfolio = () => {
               A Brother's Love Letter
             </h2>
             <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-              From Dehri-on-Sone's chaotic world to Delhi's bustling energy, you carry within you the strength of mountains and the adaptability of flowing rivers. 
-              Your journey from introversion to confident ambition inspires everyone around you. You have till now achieved a lot but still a lot to achieve. You are not just my lovely brother Tarun the Suthri Master but also my best friend and a great human being. Be practical, logical and a bit of a nerd ;). Always be a Desciplined Gentleman and keep your thoughts, emotions and descisions in your own control !
+              Your true interesting Journey begins now, You are not a dependent child anymore, you are a man now. From a chaotic world to your further journey, you carry within you the strength of mountains and the adaptability of flowing rivers. 
+              Your journey from introversion to confident ambition inspires everyone around you. You have till now achieved a lot but still a lot to achieve. You are not just my lovely brother Tarun the Suthri Master but also my best friend and a great human being. Be practical, logical and a bit of a nerd ;-). Always be a Desciplined Gentleman and keep your thoughts, emotions and descisions in your own control !
               <span className="text-yellow-400 font-bold">This journey is just the beginning — the world awaits your magic!</span>
             </p>
             <div className="mt-8 text-sm text-gray-400">
