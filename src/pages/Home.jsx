@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, MapPin, Calendar, Award, Lightbulb, Heart, Sparkles, Target, ArrowRight, Star, Zap } from 'lucide-react';
-import aryands from '../../aryands.png'; // Import the image
+import Tarunds from '../../Tarunds.png'; // Import the image
 
-const AryansPortfolio = () => {
+const TarunsPortfolio = () => {
   const [currentSection, setCurrentSection] = useState(0);
   const [showSoulAnimal, setShowSoulAnimal] = useState(false);
   const [interactiveClicked, setInteractiveClicked] = useState({
@@ -60,7 +60,7 @@ const AryansPortfolio = () => {
           <div className="relative mb-8 flex justify-center">
             <div className="w-64 h-auto md:w-80 md:h-auto rounded-lg bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-1">
               <div className="w-full h-full rounded-lg bg-gray-800 flex items-center justify-center overflow-hidden">
-                <img src={aryands} alt="Aryan The Demon Slayer" className="w-full h-full object-cover" />
+                <img src={Tarunds} alt="Tarun The Demon Slayer" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="absolute -top-4 -right-4 bg-yellow-400 text-black rounded-full w-12 h-12 flex items-center justify-center font-bold animate-bounce">
@@ -71,7 +71,7 @@ const AryansPortfolio = () => {
           {/* Title */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 bg-clip-text text-transparent animate-pulse">
-              ARYAN
+              Tarun
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 font-light">
               The Demon Slayer's Journey
@@ -162,7 +162,7 @@ const AryansPortfolio = () => {
           <div className="mb-12 p-8 bg-gradient-to-r from-indigo-600/30 to-purple-600/30 backdrop-blur-lg rounded-xl border border-white/20">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
               From a shy introvert  to an <span className="text-yellow-400 font-bold">ambivert warrior</span> ready to conquer My next chanllenge. 
-              Like a phoenix rising from ashes, Aryan discovered his inner strength from his mother and supporting sisters and entrepreneurial spirit inherited from his versatile father. His entrepreneurial spirit is not limited to just Forensic Science but opportunistic and creative.
+              Like a phoenix rising from ashes, Tarun discovered his inner strength from his mother and supporting sisters and entrepreneurial spirit inherited from his versatile father. His entrepreneurial spirit is not limited to just Forensic Science but opportunistic and creative.
             </p>
           </div>
 
@@ -200,7 +200,7 @@ const AryansPortfolio = () => {
           
           <div className="mb-12">
             <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
-              Every legend has a spirit that defines their resilience. What creature embodies Aryan's indestructible will to survive and thrive?
+              Every legend has a spirit that defines their resilience. What creature embodies Tarun's indestructible will to survive and thrive?
             </p>
             
             <button
@@ -219,7 +219,7 @@ const AryansPortfolio = () => {
                   </div>
                   <h3 className="text-3xl font-bold text-orange-400 mb-4">THE COCKROACH</h3>
                   <p className="text-xl text-gray-200 leading-relaxed">
-                    "Like the mighty cockroach that has survived every extinction event, Aryan possesses an 
+                    "Like the mighty cockroach that has survived every extinction event, Tarun possesses an 
                     <span className="text-yellow-400 font-bold"> unbreakable spirit</span>. 
                     He adapts, survives, and thrives in any environment. The world won't know what hit it! 
                     This survivor can handle nuclear winters and emerge stronger. 
@@ -252,7 +252,7 @@ const AryansPortfolio = () => {
                 <h3 className="text-2xl font-bold text-cyan-400 mb-4">Forensic Science at Amity Delhi</h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Armed with his calm demeanor, problem-solving skills, and unshakeable confidence, 
-                  Aryan is ready to decode mysteries and solve cases that baffle others. 
+                  Tarun is ready to decode mysteries and solve cases that baffle others. 
                   His chosen path in forensic science isn't just a career—it's his calling to bring justice through science.
                 </p>
               </div>
@@ -316,4 +316,4 @@ const AryansPortfolio = () => {
   );
 };
 
-export default AryansPortfolio;
+export default TarunsPortfolio;
