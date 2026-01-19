@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, MapPin, Calendar, Award, Lightbulb, Heart, Sparkles, Target, ArrowRight, Star, Zap } from 'lucide-react';
-import Tarunds from '../../Aryands.png'; // Import the image
+import Tarunds from '../../aryands.png'; // Import the image
 
 const TarunsPortfolio = () => {
   const [currentSection, setCurrentSection] = useState(0);
